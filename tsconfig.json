@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/data/featureData.ts", "src/hooks/ratings-hooks.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/data/featureData.ts", "src/hooks/ratings-hooks.js", "src/layout/header/NavMenu.js", "src/layout/header/components/Menu.js"],
   "exclude": ["node_modules"]
 }

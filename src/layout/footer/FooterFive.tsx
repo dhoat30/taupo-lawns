@@ -39,8 +39,7 @@ const FooterFive = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-3 col-md-6 order-lg-1">
                                 <div className="footer-links">
-                                    <Link href="/about">ABOUT</Link>
-                                    <Link href="/blog">BLOG</Link>
+                                    <Link href="/get-a-quote">GET A QUOTE</Link>
                                     <Link href="/contact">CONTACT</Link>
                                 </div>
                             </div>
@@ -48,17 +47,17 @@ const FooterFive = () => {
                                 <div className="footer-social">
                                     <div className="social-links">
                                         <ul>
-                                            <li><Link href="https://x.com/"  target="_blank"><i className="fab fa-twitter"></i></Link></li>
+                                            {/* <li><Link href="https://x.com/"  target="_blank"><i className="fab fa-twitter"></i></Link></li>
                                             <li><Link href="https://www.behance.net/" target="_blank"><i className="fab fa-behance"></i></Link></li>
-                                            <li><Link href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></Link></li>
-                                            <li><Link href="https://www.linkedin.com/" target="_blank"><i className="fab fa-linkedin"></i></Link></li>
+                                            <li><Link href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></Link></li> */}
+                                            <li><Link href="https://www.facebook.com/taupolawns.nz/" target="_blank"><i className="fab fa-facebook"></i></Link></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 order-lg-2">
                                 <div className="copyright-text copyright5-text">
-                                    © {getCurrentYear()} <Link href="https://themeforest.net/user/bdevs/portfolio">bdevs</Link>. All Rights Reserved & designed
+                                    © {getCurrentYear()} Taupo Lawns. All Rights Reserved. <Link href="https://webduel.co.nz" style={{color: "green"}}>Built by web<strong >duel</strong></Link>.  
                                 </div>
                             </div>
                         </div>

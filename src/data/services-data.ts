@@ -44,7 +44,7 @@ const ServicesList:TServiceData[] = [
         serviceTitle:'Hedge & Tree Trimming',
         serviceBadge:'',
         serviceDesc:'Enhance the beauty and health of your outdoor spaces with expert hedge and tree trimming services.',
-        serviceBtn:'read more',
+        serviceBtn:'GET A QUOTE',
     },
     {
         id:6,
@@ -53,7 +53,7 @@ const ServicesList:TServiceData[] = [
         serviceTitle:'Lawn Mowing',
         serviceBadge:'',
         serviceDesc:'Enjoy a perfectly manicured lawn with our reliable and professional mowing services tailored to your needs',
-        serviceBtn:'read more',
+        serviceBtn:'GET A QUOTE',
     },
     {
         id:7,
@@ -62,7 +62,7 @@ const ServicesList:TServiceData[] = [
         serviceTitle:'Gardening Service',
         serviceBadge:'',
         serviceDesc:'Transform your garden with personalised care, including planting, weeding, and maintenance for a vibrant outdoor space.',
-        serviceBtn:'read more',
+        serviceBtn:'GET A QUOTE',
     },
    
     //service page end

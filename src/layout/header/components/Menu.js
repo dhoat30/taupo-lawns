@@ -5,11 +5,11 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 
 const MenusTwo = () => {
-    const [submenuOpen, setSubmenuOpen] = useState<number>(0);
-    const [open, setOpen] = useState<boolean>(false);
+    const [submenuOpen, setSubmenuOpen] = useState(0);
+    const [open, setOpen] = useState(false);
     const { setSideMenuOpen, sideMenuOpen, toggleSideMenu } = useGlobalContext()
 
-    const handleMenuToggle = (item: any) => {
+    const handleMenuToggle = (item) => {
         setSubmenuOpen(item.id);
         setOpen(!open);
         if (item.hasDropdown === false) {

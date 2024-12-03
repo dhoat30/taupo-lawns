@@ -7,16 +7,19 @@ const NavMenu = () => {
         <>
             <ul>
                 {nav_menus_list?.map((item, index) => {
+                        console.log("dropdown" , item.hasDropdown)
+                        console.log("megamenui " , item.megamenu)
+
+
                     return (
                         <li key={index} className={`${item.hasDropdown && !item.megamenu ? 'active menu-item-has-children'
                             : item.megamenu && 'mega-menu menu-item-has-children'}`}>
                             <Link href={`${item.link}`}>{`${item.title}`}</Link>
-
-                            {item?.hasDropdown && !item.megamenu && <ul className="sub-menu">
+                            {(item.hasDropdown === true && item.megamenu === false)&& <ul className="sub-menu">
                                 {item?.dropdownItems?.map((menu, index) => (
                                     <li key={index}><Link href={`${menu.link}`}>{menu.title}</Link></li>
                                 ))}
-                            </ul>}
+                            </ul> }
                         </li>
                     )
                 })}

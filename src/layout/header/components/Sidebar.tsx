@@ -25,39 +25,21 @@ const Sidebar = () => {
                         <nav className="side-mobile-menu d-block d-xl-none mm-menu">
                             <MenusTwo/>
                         </nav>
-                        {/* <!-- side-mobile-menu end --> */}
-                        <div className="offset-widget offset_searchbar mb-30">
-                            <form action="#" className="filter-search-input">
-                                <input type="text" placeholder="Search keyword" />
-                                <button type="submit"><i className="fal fa-search"></i></button>
-                            </form>
-                        </div>
-                        <div className="offset-widget offset-support mb-30">
+                   
+                        <div className="offset-widget offset-support mt-20 mb-30">
                             <div className="footer-support">
                                 <div className="irc-item support-meta">
                                     <div className="irc-item-icon">
                                         <i className="fas fa-phone-alt"></i>
                                     </div>
                                     <div className="irc-item-content">
-                                        <p>Emergency Call</p>
-                                        <div className="support-number"><a href="tel:98965963168">989 659 631 68</a></div>
+                                        <p>Get in touch</p>
+                                        <div className="support-number"><a href={`tel: ${process.env.phoneNumber}`}>{process.env.phoneNumber}</a></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="offset-widget offset-social mb-30">
-                            <div className="footer-social">
-                                <span>Connect:</span>
-                                <div className="social-links">
-                                    <ul>
-                                            <li><Link href="https://x.com/"  target="_blank"><i className="fab fa-twitter"></i></Link></li>
-                                            <li><Link href="https://www.behance.net/" target="_blank"><i className="fab fa-behance"></i></Link></li>
-                                            <li><Link href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></Link></li>
-                                            <li><Link href="https://www.linkedin.com/" target="_blank"><i className="fab fa-linkedin"></i></Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+             
                     </div>
                 </div>
             </div>

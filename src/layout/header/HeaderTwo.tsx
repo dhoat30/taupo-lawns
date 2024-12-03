@@ -82,7 +82,7 @@ const HeaderTwo = () => {
                                     </nav>
                                 </div>
                               
-                                <Link href="/contact" className="border-btn-rounded d-none d-lg-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></Link>
+                                <Link href="/get-a-quote" className="border-btn-rounded d-none d-lg-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></Link>
                                 <div className="menu-bar d-lg-none">
                                     <span className="side-toggle" onClick={() => setSideMenuOpen(true)}>
                                         <div className="bar-icon">
@@ -107,14 +107,7 @@ const HeaderTwo = () => {
                                                 <NavMenu />
                                             </nav>
                                         </div>
-                                        <div className="header-search d-none d-xl-inline-block">
-                                            <form action="#">
-                                                <div className="single-input-field field-search">
-                                                    <input type="search" placeholder="Keyword here..." />
-                                                    <button type="submit"><i className="fas fa-search"></i></button>
-                                                </div>
-                                            </form>
-                                        </div>
+                                     
                                     </div>
                                     <div className="header-main-right header-main-right-header2">
                                         <div className="meta-item">
@@ -123,7 +116,7 @@ const HeaderTwo = () => {
                                             </div>
                                             <div className="meta-item-content">
                                                 <div className="meta-title"> Call Us</div>
-                                                <p><Link href="tel:98965963168">{process.env.phoneNumber}</Link></p>
+                                                <p><Link href={`tel: ${process.env.phoneNumber}`}>{process.env.phoneNumber}</Link></p>
                                             </div>
                                         </div>
                                     </div>
@@ -138,9 +131,7 @@ const HeaderTwo = () => {
             <Sidebar />
             {/* sidebar end */}
 
-            {/* sidebar cart start */}
-            <SidebarCart openCart={openCart} setOpenCart={setOpenCart} />
-            {/* sidebar cart end */}
+        
         </>
     );
 };
