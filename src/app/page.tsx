@@ -11,7 +11,7 @@ import TestimonialSliderTwo from '@/elements/sliders/testimonial/TestimonialSlid
 
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Taupo Lawns | Expert Lawn Mowing, Gardening, & Trimming Services',
   description: 'Transform your outdoor spaces with Taupo Lawns, offering professional lawn mowing, hedge and tree trimming, and gardening services in Taupo since 2014.',
   openGraph: {
