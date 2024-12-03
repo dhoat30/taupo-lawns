@@ -5,7 +5,14 @@ import GetQuoteFormSection from '@/components/contact/GetQuoteFormSection';
 import MetaData from '@/hooks/useMetaData';
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
-
+export const metadata: Metadata = {
+    title: 'Get a Free Quote | Taupo Lawns Lawn Mowing & Gardening Services',
+    description: 'Request a free quote from Taupo Lawns and let us help you maintain a beautiful, well-kept outdoor space with our professional services.',
+    openGraph: {
+      title: 'Get a Free Quote | Taupo Lawns Lawn Mowing & Gardening Services',
+      description: 'Request a free quote from Taupo Lawns and let us help you maintain a beautiful, well-kept outdoor space with our professional services.',
+    },
+  }
 const ContactMain = () => {
     return (
         <>

@@ -8,14 +8,21 @@ import BrandSliderTwo from '@/elements/sliders/brand/BrandSliderTwo';
 import HeroSliderTwo from '@/elements/sliders/hero/HeroTwo';
 import PortfolioSlider from '@/elements/sliders/portfolio/PortfolioSliderTwo';
 import TestimonialSliderTwo from '@/elements/sliders/testimonial/TestimonialSliderTwo';
-import MetaData from '@/hooks/useMetaData';
+
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
-
+export const metadata: Metadata = {
+  title: 'Taupo Lawns | Expert Lawn Mowing, Gardening, & Trimming Services',
+  description: 'Transform your outdoor spaces with Taupo Lawns, offering professional lawn mowing, hedge and tree trimming, and gardening services in Taupo since 2014.',
+  openGraph: {
+    title: 'Taupo Lawns | Expert Lawn Mowing, Gardening, & Trimming Services',
+    description: 'Transform your outdoor spaces with Taupo Lawns, offering professional lawn mowing, hedge and tree trimming, and gardening services in Taupo since 2014.',
+  },
+}
 const HomeTwoMain = () => {
     return (
         <>
-    <MetaData pageTitle="Home Two">
+   
       <Wrapper>
         <main>
       <HeroSliderTwo/>
@@ -30,7 +37,7 @@ const HomeTwoMain = () => {
       {/* <BlogSectionTwo /> */}
         </main>
       </Wrapper>
-    </MetaData>
+
         </>
     );
 };

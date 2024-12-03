@@ -4,7 +4,14 @@ import ContactMapSection from '@/components/contact/ContactMapSection';
 import MetaData from '@/hooks/useMetaData';
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
-
+export const metadata: Metadata = {
+    title: 'Contact Taupo Lawns | Get in Touch for Lawn & Gardening Services',
+    description: 'Have questions or need lawn care services? Contact Taupo Lawns today for expert lawn mowing, hedge trimming, and gardening solutions tailored to your needs.',
+    openGraph: {
+      title: 'Contact Taupo Lawns | Get in Touch for Lawn & Gardening Services',
+      description: 'Have questions or need lawn care services? Contact Taupo Lawns today for expert lawn mowing, hedge trimming, and gardening solutions tailored to your needs.',
+    },
+  }
 const ContactMain = () => {
     return (
         <>

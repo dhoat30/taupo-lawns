@@ -7,7 +7,14 @@ import BrandSliderTwo from '@/elements/sliders/brand/BrandSliderTwo';
 import MetaData from '@/hooks/useMetaData';
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
-
+export const metadata: Metadata = {
+  title: 'About Taupo Lawns | Trusted Lawn & Gardening Experts Since 2014',
+  description: 'Learn about Taupo Lawns, proudly serving the Taupo community with professional lawn mowing, hedge trimming, and gardening services since 2014.',
+  openGraph: {
+    title: 'About Taupo Lawns | Trusted Lawn & Gardening Experts Since 2014',
+    description: 'Learn about Taupo Lawns, proudly serving the Taupo community with professional lawn mowing, hedge trimming, and gardening services since 2014.',
+  },
+}
 const AboutPage = () => {
     return (
         <>
